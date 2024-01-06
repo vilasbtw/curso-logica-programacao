@@ -1,0 +1,15 @@
+TÍTULO: Primeiro Algoritmo - Curso de Algoritmos #02 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=M2Af7gkbbro&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=3
+
+ • RESUMO: Apresentação da ferramenta VisualG, para trabalhar com Portugol e fazer algoritmos; Apresentação dos comandos de saída "escreva" e "escrevaL"; Apresentação sobre o conceito de variaveis e regras para definir os nomes das variaveis; Apresentação dos tipos primitivos do VisualG: "inteiro", "real", "logico" e "caractere".
+
+ • SINTAXE:
+	[ escrevaL("Olá, mundo!")
+	  escreva("Me livrei da maldição.")]
+
+ • EXPLICAÇÃO: O "escreva" apenas escreve o que está escrito entre aspas. E o "escrevaL", além de escrever, pula uma linha.
+
+ • PRÁTICAS:
+ 	1. ) Fazer o "Olá, mundo!"
+ 	
+ 	2. ) Colocar o "Olá, mundo!" em uma variável.

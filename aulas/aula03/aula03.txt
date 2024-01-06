@@ -1,0 +1,22 @@
+TÍTULO: Comando de Entrada e Operadores - Curso de Algoritmos #03 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=RDrfZ-7WE8c&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=3&ab_channel=CursoemV%C3%ADdeo
+
+ • RESUMO: Introdução ao comando de entrada "leia", que guarda a resposta do usuário em uma variável. Apresentação também dos operadores aritméticos "+", "-", "*", "/", "^" e "%"; Apresentação da ordem de precedência: 1º Parênteses, 2º Exponenciação, 3º Multiplicação e Divisão, 4º Soma e Subtração.
+ 
+ Apresentação de funções aritméticas, como: "Abs()", que retorna o valor positivo de um número; "Exp(n1,n2)", que eleva o n1 ao n2; "Int()", que mostra o valor inteiro de um número real; "RaizQ()", que mostra a raíz quadrada de um número; Pi, que retorna o valor de Pi ao programa; Sen(), Cos(), Tan() e GraupRad(), que trabalham com trigonometria.    
+ 
+ • SINTAXE: 
+ 	[ escreva("O que você quer guardar nessa variável: ")
+ 	          leia(variavel) ]
+ 
+ • EXPLICAÇÃO: Então, é bem simples: a resposta que o usuário escrever, quando ("O que você quer guardar nessa variável: ") aparecer na tela, será o valor guardado na variável "variavel".
+ 
+ • PRÁTICA:
+	1. ) Pedir ao usuário para que ele digite 2 números. Depois, faça o computador somá-los.
+	1.1) Calcular a média dos dois valores somados.
+	
+	2. ) Testar as funções aritméticas
+	2.1) Criar um programa que informe o seno de um ângulo. 
+	
+ • EXERCÍCIO:
+ 	1. ) Fazer um algoritmo para calcular uma equação do segundo grau.
