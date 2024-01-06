@@ -1,0 +1,19 @@
+TÍTULO: Exercícios de Algoritmo Resolvidos - Curso de Algoritmos #06 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=v2nCgGSVCeE&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=7&ab_channel=CursoemV%C3%ADdeo
+
+ • RESUMO: Aula prática que cobrou diversos exercícios no Scratch e no VisualG. Essa aula focou nas estruturas "escreva" e "leia", familiarizando o aluno com as variáveis.
+
+ • PRÁTICA:
+	1. ) SCRATCH e VISUALG: Fazer um algoritmo que calcule a idade do usuário com base no ano atual e no ano de nascimento do usuário.
+	 
+	2. ) SCRATCH e VISUALG: Fazer um algoritmo para converter a quantia de dinheiro de reais para dólares. 
+	
+	3. ) SCRATCH e VISUALG: Fazer um algoritmo para converter a temperatura de Fahrenheit para Celcius.	
+	
+	4. ) SCRATCH e VISUALG: Fazer um algoritmo para calcularo imposto de 60% em um produto.
+	4.1) Fazer um algoritmo para calcular o imposto do produto, permitindo que o usuário possa escolher a porcentagem do imposto.
+ 
+ • EXERCÍCIOS:  
+	1. ) VISUALG: Fazer um algoritmo para calcular o valor e o juros de um empréstimo no banco. O algoritmo deve mostrar qual é o valor do empréstimo sem juros, qual é o valor do empréstimo com juros, qual é o valor do juros, quantas parcelas e qual é o preço de cada parcela.
+
+  

@@ -1,0 +1,37 @@
+TÍTULO: Matrizes - Curso de Algoritmos #15 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=hkE9WrjpAAk&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=16&ab_channel=CursoemV%C3%ADdeo
+
+ • RESUMO: Apresentação das variáveis compostas homogêneas multidimensionais: as matrizes. Assim como vetores, guardam vários valores, mas agora, com várias dimensões. No caso das matrizes, precisarei de dois indices para encontrar um valor. Um na horizontal, outro na vertical. As matrizes são partes importantes para a criação de jogos tridimensionais.
+
+ • SINTAXE: 
+      [ var
+        linhas, colunas: inteiro
+	minhaMatriz: vetor[1..3, 1..2]: de inteiro
+	
+	para linhas <- 1 ate 3 faca
+	  para colunas <- 1 ate 2 faca
+	  	escreva("Digite um número: ")
+	  	leia(minhaMatriz[linhas, colunas])
+	  fimPara
+	fimPara ]  
+
+ • EXPLICAÇÃO: Essa é uma matriz 3 X 2, isto é, uma matriz com três linhas e duas colunas. Para criar uma matriz, é necessário duas estruturas "para", sendo uma delas para a linha e a outra, para a coluna. Ao declarar a variável, necessita colocar o limite desses dois indices. Lembrando que neste exemplo acima, o computador apenas irá guardar o valor que foi digitado pelo usuário nessas posições. Para fazer o computador mostrar os valores, é necessário de outra estrutura de repetição, agora com o escreva.
+
+ • PRÁTICAS: 
+	1. ) Preencher uma matriz 3 x 2, com valores via teclado;
+	
+	2. ) Ler uma matriz 3 x 3 e destacar quais valores digitados são pares. Mostrar a quantidade de valores pares digitados;
+	
+	3. ) Criar uma matriz identidade de 3ª ordem que defina a diágonal principal como 1, e o resto como 0; 
+	
+	4. ) Criar um programa para preencher uma matriz de 4ª ordem;
+	4.1) Faça o computador somar os valores da diagonal principal;
+	4.2) Exiba o produto dos valores da segunda linha;
+	4.3) Exiba o maior valor da terceira coluna;
+	4.4) Tirar a média aritmética dos valores da matriz;
+	4.5) Dizer quais valores ultrapassam essa média.	
+		
+ • EXERCÍCIOS:
+	1. ) DISSECANDO MATRIZES: Fazer uma matriz e dar as opções mostrar a matriz, ou, a diagonal principal, ou o triângulo superior, ou o triângulo inferior.
+	
+	2. ) JOGO DA VELHA: fazer um jogo da velha com uma matriz identidade de 3ª ordem.

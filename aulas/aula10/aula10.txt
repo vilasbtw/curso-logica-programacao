@@ -1,0 +1,42 @@
+TÍTULO: Estruturas de Repetição 2 - Curso de Algoritmos #10 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=fP49L1i_-HU&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=11
+
+ • RESUMO:
+Essa aula tem ênfase em apresentar a estrura "repita", uma estrutura de repetição mais simples do que a "enquanto". O teste lógico do enquanto é no começo, já o do "repita" é no final. Tem a síntaxe inversa.
+
+   Ex.:    enquanto (quarto DESARRUMADO) faca
+         	castigo
+          fimEnquanto				
+
+   Ex.:    repita
+     	        castigo
+           ate (quarto ARRUMADO)	
+	
+Então, "enquanto" requer uma condição oposta ao "repita".
+
+ • SINTAXE:
+
+	[ repita 
+	  	esse bloco de código	
+                (variavel) <- (variavel) + (valorSalto)
+       	  ate (variavel = valorDesejado) ]
+
+ • EXPLICAÇÃO:
+Defina "variavel" como um contador; o "valorSalto" como o parâmetro que define o ritmo do incremento ou decremento da "variavel"; e "valorDesejado" como o valor necessário para que o código seja finalizado. Quando a "variavel" atingir o "valorDesejado", a repetição para.
+
+ • PŔATICAS:
+
+	- 1. ) Contar de 1 até 10 com a estrutura "repita". 
+	- 1.1) Fazer a tabuada de um número digitado. 
+	
+	- 2. ) Contar quantos números digitados são negativos.
+	
+	- 3. ) Fazer um algoritmo para calcular a fatorial de um número.
+	- 3.3) Fazer com que esse algoritmo inclua a pergunta: "você quer continuar?", e seja finalizado apenas caso a resposta for "N".
+	
+	- 4. ) Fazer um algoritmo para identificar se o número digitado pelo usuário é primo.
+
+ • EXERCÍCIOS:
+	- 1. ) Realizar um contador inteligente. Que dê a opção ao usuário de escolher entre contar de 1 até 10, ou de 10 até 1 e também dê a opção de sair.
+	
+	- 2. ) Realizar um algoritmo que analise as características físicas das pessoas, selecionando pessoas que atendam as condições determinadas.

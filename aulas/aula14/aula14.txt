@@ -1,0 +1,39 @@
+TÍTULO: Vetores - Curso de Algoritmos #14 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=j9473xQ39vY&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=16&ab_channel=CursoemV%C3%ADdeo
+
+ • RESUMO: Introdução as variáveis compostas homogêneas e unidimensionais: vetores; Os vetores são similares às variáveis, guardam algum valor. A diferença é que a variável simples guardaria apenas um valor, enquanto os vetores podem guardar vários valores (por isso "composto") em posições diferentes (os valores precisam ser do mesmo tipo primitivo. Por isso "homogêneo"). É unidimensional porque, diferentemente das matrizes (próxima aula), são localizados facilmente com apenas 1 cordenada. Apresentação do mecânismo de ordenação "bubble-sort".
+
+ • SINTAXE: 
+   var:
+   meuVetor: vetor[1..5] de inteiro
+   indice: inteiro
+ 
+   inicio
+    
+ 	[ para indice <- 1 ate 5 faca
+	  escrevaL("Digite um número: ")
+	  leia(meuVetor[indice])
+	  fimPara ]  
+	 
+ • EXPLICAÇÃO: "meuVetor" é um vetor que guarda 5 valores que serão digitados pelo usuário. Cada valor será guardado em uma posição de 1 até 5. Na primeira vez, o primeiro valor será guardado na posição 1 do vetor, isso é: "meuVetor[1]". Isso acontece devido ao indice, que define as posições do vetor. Então, quando eu quiser que o computador mostre o valor digitado pela primeira vez, é só escrever "meuVetor[1]", pois o valor que o usuário deu, ficou guardado no indice de posição 1. O mesmo vale para as outras posições. 
+
+ • PRÁTICAS: 
+	1. ) Apresentação da sintaxe de vetores, guardando valores númericos inteiros de 1 a 6.
+	
+	2. ) Contar quantos valores pares foram digitados.
+	2.1) Dizer em qual posição o valor par foi digitado.
+	
+	3. ) Fazer uma listagem de alunos, perguntando o nome, a primeira nota, a segunda nota e depois, calcular a média através dos vetores.
+	3.1) Mostrar quais alunos estão acima da média.
+	
+	4. ) Mostrar apenas quais nomes começam com a letra "C".
+	
+	5. ) Apresentação da ordenação de vetores, mecanismo "bubble-sort", que compara um elemento do vetor com o próximo.
+	5.1) Fazer o "bubble-sort" na ordem decrescente.	
+
+ • EXERCÍCIOS:
+	1. ) TORNEIO DE FUTEBOL: Fazer todas as combinações entre jogos de times de futebol.
+	
+	2. ) CORRIGINDO PROVAS: Faça um algoritmo para cadastrar o gabarito oficial de uma prova. Depois, cadastre o gabarito de três alunos. Faça uma análise das  respostas dos alunos e dê dois pontos para cada resposta correta. No fim, mostre o resultado dos alunos e a média da turma.
+	
+	3. ) SALA DE CINEMA: Mostre uma fileira de cinema em que o usuário pode escolher reservar algum assento. Cada vez que um assento for reservado, faça com que o computador escreva "[ --- ]" no lugar do assento, mostrando que ele não está mais disponível. Faça o código repetir até o usuário dizer que não quer mais reservar.

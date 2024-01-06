@@ -1,0 +1,28 @@
+TÍTULO: Estruturas Condicionais 1 - Curso de Algoritmos #07 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=_g05aHdBAEY&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=8
+
+ • RESUMO:
+Introdução a estrutura condicional "se". Demonstração da diferença entre a estrutura condicional simples (apenas com "se") e a estrutura condicional composta (se e senão). 
+
+ • SINTAXE:
+
+ 	[ se (isso for verdadeiro) entao
+		execute isso
+	   senao
+		execute isso
+	 fimSe ]	
+
+ • EXPLICAÇÃO: Os parênteses geralmente vão conter um teste lógico de uma variável testada anteriormente. Caso a condição seja atendida, um bloco de código será executado. Caso não, outro bloco será executado no lugar deste.
+
+ • PŔATICAS:
+	1. ) Algoritmo para mostrar se uma pessoa é maior, ou menor de idade.
+	
+	2. ) Fazer um algoritmo para verificar se um número é par ou ímpar.
+	
+	3. ) Calcular o IMC do usuário, com base no peso e na altura digitada.	
+
+ • EXERCÍCIOS:
+ 	1. ) De acordo com a idade do usuário, dizer se ele está apto para dirigir. 
+ 	
+ 	2. ) Verificar, com base na nota do aluno, se ele foi reprovado ou aprovado.
+

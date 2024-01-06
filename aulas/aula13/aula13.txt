@@ -1,0 +1,27 @@
+TÍTULO: Funções - Curso de Algoritmos #13 - by Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=-nNx7e8GzHQ&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=14&ab_channel=CursoemV%C3%ADdeo
+
+ • RESUMO: Existem dois tipos de rotina: por Procedimentos e Funções. A diferença entre os dois é que na função retorna-se um valor para guardar em uma variável. A função permite você formatar como o resultado será escrito na tela. Enquanto no procedimento, todos os resultados de todas as operações são mostradas do mesmo jeito.
+Apresetação da formatação por funções no VisualG. "Compr()"; "Copia()"; "Maiusc()"; "Minusc()"; "Pos()"; "Asc()" e "Carac()". 
+
+ • SINTAXE:
+ 	[ funcao nomeFuncao(parametro1, parametro2: tipoPrimitivoParametro): tipoPrimitivoRetorno
+ 	     inicio
+ 	     bloco de código da função 
+ 	     retorne variavelDeRetorno	
+ 	  fimFuncao ]
+ 
+
+ • EXPLICAÇÃO: No VisualG, a função vai ter dois tipos primitivos declarados, isso porque, primeiro, declara-se o tipo primitivo dos parâmetros, depois, declara-se o tipo primitivo da variável que será retornada.
+
+ • PRÁTICAS:
+ 	1. ) Somar dois valores utilizando a estrutura de rotina "funcao".
+ 	
+ 	2. ) Verificar se um número é par ou ímpar.
+
+	3. ) Calcular fatorial de um número.
+	
+	4. ) Calcular uma sequência de Fibonacci. (Nesse exercício, é extremamente importante saber diferenciar a passagem por referência da passagem por valor.
+A passagem por referência não vai funcionar, porque o primeiro e o segundo termo precisam ter o seu valor alterado na variável global, e não só na variável local.)
+ 
+ 	5. ) Analisador de nomes: testar as funções de tratamento de Strings do VisualG.

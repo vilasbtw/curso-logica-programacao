@@ -1,0 +1,28 @@
+TÍTULO: Estruturas de Repetição 3 - Curso de Algoritmos #11 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=WJQz20i7CyI&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=12
+
+ • RESUMO: A aula final abordou a estrutura de repetição "para". É a estrutura mais simples em comparação com "enquanto" e "repita". Mas, nem sempre é possível utilizar a estrutura "para". Por exemplo, em algoritmos que requerem a pergunta "Você deseja continuar?". Nesse caso, a estrutura "para" não é viável, pois seu funcionamento está limitado a um valor inicial (e inteiro) até um valor final. Em situações assim, é mais apropriado recorrer às estruturas "repita" ou "enquanto".
+
+ • SINTAXE:
+		[ para (variavel) <- (valorInicial) ate (valorFinal) passo (salto) faca
+			bloco de código  ]
+
+ • EXPLICAÇÃO: Considere "variavel" um contador; "valorInicial" como o ponto de partida desse contador; "valorFinal" como o ponto de chegada para que a repetição termine. Quando o "valorInicial" alcançar o "valorFinal" a execução dessa estrutura é finalizada; e "salto" como o parâmetro que aproxima o "valorInicial" do "valorFinal", definindo o ritmo do incremento ou decremento do "valorInicial". 
+ NOTA: se o salto for 1, não é necessário escrever "passo 1" no algoritmo, pois o computador implicitamente tem como padrão o salto 1.  
+
+ • PRÁTICAS
+ 
+ 	- 1. ) Contar de 1 até 10 utilizando a estrutura "para"; Contar de 1 até 10 com salto 2; Contar de 10 a 1, com o salto negativo (regressivo).
+ 	- 1.1) Somar os números digitados pelo usuário.
+		
+	- 2. ) Contar quantidade de números pares digitados.
+	
+	- 3. ) Contar quantidade de números digitados que estejam entre 0 e 10; Adicional: somar os números ímpares digitados.
+	
+	- 4. ) Combinar um valor fixo com um valor crescente, utilizando um "para" dentro de outro "para".
+		
+ • EXERCÍCIOS
+ 
+ 	- 1. ) Realizar um algoritmo que mostre os 15 primeiros números da sequência de Fibonacci.	
+
+	- 2. ) Fazer um algoritmo que analise cinco valores digitados pelo usuário, calculando a média entre eles, a soma, a quantidade de números ímpares...

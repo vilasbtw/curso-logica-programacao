@@ -1,0 +1,37 @@
+TÍTULO: Procedimentos - Curso de Algoritmos #12 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=KoNehy7rn8U&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=13
+
+ • RESUMO: Foi introduzido a ideia de procedimentos, parâmetros, variável local e variável global. A global é a variável definida no campo var.
+ Enquanto uma variável local é definida dentro do campo de procedimento. Os parâmetros são incluidos juntamente com o nome do procedimento, entre parênteses.
+ Os procedimentos permitem encurtar o código e transforma-lo em algo mais automatizado, fazer o computador trabalhar para você. Também é mostrado procedimento com passagem de valor e passagem por referência. É uma passagem de referência quando há a palavra "var", no parênteses dos parametros.
+
+PASSAGEM POR **VALOR**: Parâmetros do procedimento NÃO alteram o valor da variável global. Não tem influência na variável Global.
+PASSAGEM POR **REFERÊNCIA**: Parâmetros do procedimento alteram o valor da variável global. Influencia e afeta a variável Global.
+
+ • SINTAXE: (encontra-se antes do campo "inicio")
+
+ 
+	 • **PASSAGEM POR VALOR**
+ 	[ procedimento nomeDoProcedimento(parametrosDoProcedimento: Tipo primitivo do parametro [inteiro, real, caracter...])
+ 		var
+ 		(campo para criar clones da variavel local)
+ 	  inicio
+ 	  	bloco de código
+ 	  fimProcedimento ]
+ 	  
+ 	   • **PASSAGEM POR REFERẼNCIA** (A diferença é onde o 'var' se localiza.)
+ 	 	[ procedimento nomeDoProcedimento(var parametrosDoProcedimento: Tipo primitivo do parametro [inteiro, real, caracter...])
+ 	  inicio
+ 	  	bloco de código
+ 	  fimProcedimento ]  
+ 		
+ • EXPLICAÇÃO: os parâmetros nem sempre são necessários. Eles existem quando há alguma variável global que será utilizada no procedimento, trabalhando junto com a variável local. A "var" é incluida no parênteses do parâmetro quando é realizada uma passagem por referência, ou seja, quando há intenção de alterar o valor de uma variável global atráves da local. O procedimento é escrito antes do "inicio" do algoritmo e após o campo "var".
+
+ • PRÁTICAS
+ 
+ 	- 1. ) DETECTOR DE PESADO: apontamento de peso das pessoas, identificando a pessoa mais pesada.
+	- 1.1 ) SOMA DE PARÂMETROS: definir varáveis com valores, criar um procedimento para somar essas variáveis.
+	
+	- 2. ) Realizar um algoritmo para identificar valores pares e ímpares com procedimentos. 
+	
+	- 3. ) Sequência de Fibonacci

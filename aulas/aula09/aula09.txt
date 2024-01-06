@@ -1,0 +1,35 @@
+TÍTULO: Estruturas de Repetição 1 - Curso de Algoritmos #09 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=U5PnCt58Q68&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=10
+
+ • RESUMO: 
+Introdução as estruturas de repetição. A primeira estrutura aprensentada foi a "enquanto", que realiza um certo bloco de código enquanto um teste lógico for verdadeiro. A partir do momento em que o teste lógico se torna falso, a repetição é finalizada.
+
+ • SINTAXE:
+
+	[ enquanto (teste lógico) faca
+	    bloco de código
+	  fimEnquanto ]
+
+ • EXPLICAÇÃO: defina o teste lógico como qualquer análise para identificar se uma condição está sendo satisfeita ou não.
+Ex.: enquanto (minhaVariavel < 10) faca; Ou seja, nesse exemplo, a repetição acontecerá até o momento em que a "minhaVariavel" for menor do 10.
+Quando ela atingir esse valor, a repetição termina, e o resto do código é rodado.
+
+ • PŔATICAS:
+
+	1. ) Contar de 0 até 10;
+	
+	2. ) Contar de 10 até 0;
+
+	3. ) Contar até quando o usuário quiser, permitindo que ele escolha o número e o salto entre esse número e o zero;
+	
+	4. ) Contar 10 números e soma-los.
+        4.1) Adicional: fazer o computador te mostrar o maior número digitado
+        
+        5. ) Fazer conversão de moedas 4x	
+	5.1) Adicional: fazer conversão de moedas quantas vezes o usuário quiser
+
+ • EXERCÍCIOS:
+
+	1. ) Contador inteligente, identificando se deve contar regressivamente ou de modo crescente;
+	
+	2. ) Identificar o melhor aluno com base nas notas;		

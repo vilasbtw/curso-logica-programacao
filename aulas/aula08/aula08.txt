@@ -1,0 +1,34 @@
+TÍTULO: Estruturas Condicionais 2 - Curso de Algoritmos #08 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=7gGFHzqh4d8&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=9
+
+ • RESUMO:
+Introdução a estrutura "caso" e demonstração teórica e prática da estrutura "se aninhado", que são estruturas condicionais "se", uma dentro da outra.
+
+ • SINTAXE:
+
+	[ escolha (variavelTeste)
+		caso 1
+		   execute esse bloco de código
+		caso 2
+		   execute esse bloco de código
+		outroCaso
+		   execute esse bloco de código
+	  fimEscolha ]	
+	
+ • EXPLICAÇÃO: A estrutra "caso", só atende valores inteiros, portanto, a "variavelTeste" precisa guardar um valor inteiro. Dependendo do valor
+ guardado na variável, algum tipo de código será executado. o "outroCaso" serve para quando nenhum dos valores são atingidos.
+
+ • PŔATICAS:
+	1. ) Fazer um algoritmo para determinar se um aluno foi aprovado ou reprovado ou se ele está de recuperação.
+	
+	2. ) Fazer um algoritmo mais completo para o calculo e analise do IMC.
+	
+	3. ) Algoritmo do "Criança Esperança". Avaliar e dar opções de doação, utilizando a estrutura "caso".
+	
+	4. ) Fazer um algoritmo que verifique a quantidade de dependentes de um funcionário, dando um salário conforme a quantidade dos dependentes.
+
+ • EXERCÍCIOS:
+
+	1. ) Algoritmo para definir o aproveitamento de um aluno, dando nota A, B, C, D, E ou F, dependendo da sua média.
+	
+	2. ) Algoritmo para verificar se um jogo de futebol foi empate, partida normal ou uma goleada.
