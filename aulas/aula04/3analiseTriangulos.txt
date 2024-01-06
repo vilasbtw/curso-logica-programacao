@@ -1,0 +1,43 @@
+algoritmo "analiseTriangulos"
+var
+primeiroLado, segundoLado, terceiroLado: inteiro
+trianguloEquilatero, trianguloIsosceles, trianguloEscaleno: logico
+inicio
+
+      escreva("Qual é a medida do primeiro lado? ")
+                    leia(primeiroLado)
+      escreva("Qual é a medida do segundo lado? ")
+                    leia(segundoLado)
+      escreva("Qual é a medida do terceiro lado? ")
+                    leia(terceiroLado)
+
+se (primeiroLado < segundoLado + terceiroLado) e (segundoLado < primeiroLado + terceiroLado) e (terceiroLado < primeiroLado + segundoLado) entao
+   escrevaL("PODE FORMAR UM TRIÂNGULO.")
+   senao
+      escreva("A MEDIDA DOS SEGMENTOS NÃO ATENDE AS CONDIÇÕES PARA A EXISTÊNCIA DE UM TRIÂNGULO.")
+      fimAlgoritmo
+fimSe
+
+trianguloEquilatero <- (primeiroLado = segundoLado) e (primeiroLado = terceiroLado)
+trianguloIsosceles <- ((primeiroLado = segundoLado) e (primeiroLado <> terceiroLado)) ou ((primeiroLado <> segundoLado) e (segundoLado = terceiroLado)) ou ((primeiroLado <> segundoLado) e (primeiroLado = terceiroLado))
+trianguloEscaleno <- (primeiroLado <> segundoLado) e (primeiroLado <> terceiroLado) e (segundoLado <> terceiroLado)
+
+      escrevaL("-----------------------------------")
+      escrevaL("EQUILATERO: ", trianguloEquilatero)
+      escrevaL("ISOSCELES: ", trianguloIsosceles)
+      escrevaL("ESCALENO: ", trianguloEscaleno)
+      escrevaL("-----------------------------------")
+
+se (trianguloEquilatero = VERDADEIRO) entao
+   escrevaL("É EQUILATERO, TODOS LADOS SÃO IGUAIS.")
+   senao
+      se (trianguloIsosceles = VERDADEIRO) entao
+         escrevaL("É ISOSCELES, DOIS LADOS SÃO IGUAIS.")
+         senao
+            se (trianguloEscaleno = VERDADEIRO) entao
+               escrevaL("É ESCALENO, TODOS OS LADOS SÃO DIFERENTES.")
+            fimSe
+      fimSe
+fimSe
+
+fimalgoritmo

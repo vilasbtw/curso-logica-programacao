@@ -1,0 +1,11 @@
+TÍTULO: Operadores Lógicos e Relacionais - Curso de Algoritmos #04 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=Ig4QZNpVZYs&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=5&ab_channel=CursoemV%C3%ADdeo
+
+ • RESUMO: Apresentação dos operadores relacionais e lógicos no VisualG, como o "maior que", "menor que", "igual", "diferente", "e", "ou".
+
+ • PRÁTICAS:
+	1. ) Testar os operadores relacionais.
+	
+	2. ) Testar os operadores lógicos.
+	
+	3. ) Verificar qual é o tipo do triângulo; usar operadores lógicos e relacionais juntos

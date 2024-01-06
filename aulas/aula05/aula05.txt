@@ -1,0 +1,12 @@
+TÍTULO: Introdução ao Scratch - Curso de Algoritmos #05 - Gustavo Guanabara
+LINK: https://www.youtube.com/watch?v=GrPkuk1ezyo&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&index=6&ab_channel=CursoemV%C3%ADdeo
+
+ • RESUMO: Apresentação a ferramenta para o aprendizado de pseudocódigos: Scratch. Introdução a estilização dos personagens e dos cenários.
+ 
+ • PRÁTICAS:
+ 	1. ) Fazer o gatinho dizer "Olá, mundo!" e mie.
+ 	
+ 	2. ) Fazer o gatinho somar dois números dados pelo usuário, e o resultado, faça o gato andar em passos.
+ 	
+ 	3. ) Fazer o personagem andar e voltar, dando saltos a cada vez que o usuário aperte espaço. 
+ 	     Quando o personagem bater a cabeça em um ojeto, faça ele gritar e some um ponto.
